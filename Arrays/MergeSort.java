@@ -22,7 +22,7 @@ class sorter
         int right=mid+1;
          while(left<=mid && right<=high) {
 
-            if(arr[left]<arr[right])
+            if(arr[left]<=arr[right])
             {
                 temp.add(arr[left]);
                 left++;
